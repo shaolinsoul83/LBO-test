@@ -1,6 +1,19 @@
 # LBO test
 
-This template should help get you started developing with Vue 3 in Vite.
+ Défi
+
+Nous avons une chaîne de nombres, par exemple : "12345654355".
+Calcule le plus grand produit de toutes les sous-chaînes adjacentes possibles de longueur "n".
+
+Exemples
+
+    Pour la chaîne "1127839561" avec "n=5", le plus grand produit sera "7560" (7 * 8 * 3 * 9 * 5).
+    Pour la même chaîne avec "n=3", le plus grand produit sera "270" (9 * 5 * 6).
+
+Informations
+
+Il n'est pas nécessaire d'avoir les chiffres de la sous-chaîne numériquement consécutifs ; mais juste que les nombres soient adjacents dans la chaîne de départ.
+N'hésite pas à prendre en compte les cas limites et les situations où plusieurs sous-chaînes conduisent au même produit.
 
 ## Recommended IDE Setup
 
