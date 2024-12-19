@@ -103,12 +103,6 @@ const examplesWithResults = examples.map((example) => {
   const result = calculateMaxProductTool(example.numberString, example.n);
   return { ...example, result };
 });
-// const examplesWithResults = computed(() =>
-//   examples.map((example) => ({
-//     ...example,
-//     result: calculateMaxProductTool(example.numberString, example.n),
-//   }))
-// );
 </script>
 
 <style>
